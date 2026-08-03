@@ -1,7 +1,8 @@
 #ifndef GDA_ADPCM_AUDIO_H
 #define GDA_ADPCM_AUDIO_H
 #include <tonc.h>
-#define GDAA_SAMPLE_RATE       11025u
+#define GDAA_SAMPLE_RATE       16384u
+#define GDAA_SAMPLE_RATE_CLIPPED 11025u
 #define GDAA_HEADER_BYTES      28u
 #define GDAA_BLOCK_SAMPLES     256u
 #define GDAA_BLOCK_HEADER_BYTES 4u
