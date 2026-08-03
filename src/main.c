@@ -4,6 +4,8 @@
 #include "metatiles.h"
 #include "physics_defines.h"
 #include <maxmod.h>
+#include "adpcm_stream.h"
+#include "gdaa_assets.h"
 #include "soundbank.bin.h"
 #include "soundbank.h"
 #include "level_select.h"
@@ -127,6 +129,8 @@ void init_maxmod() {
     mySystem.soundbank         = (mm_addr)soundbank_bin;
 
     mmInit( &mySystem );
+    // ADPCM music player init (FIFO B, DMA2, Timer1+2) - Maxmod now only for SFX
+    gdaa_stream_init();
     // 85% volume
     mmSetModuleVolume(819);
     irq_init(NULL);

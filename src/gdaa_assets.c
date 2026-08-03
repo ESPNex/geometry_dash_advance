@@ -23,6 +23,7 @@
 #include "HEXAGON_FORCE.gdaa.h"
 #include "INFERNOPLEX.gdaa.h"
 #include "JUMPER.gdaa.h"
+#include "MENU_THEME.gdaa.h"
 #include "POLARGEIST.gdaa.h"
 #include "PROBLEMATIC.gdaa.h"
 #include "ROSE.gdaa.h"
@@ -54,13 +55,14 @@ const GdaaAsset gdaa_assets[GDAA_TRACK_COUNT] = {
     [GDAA_TRACK_ELECTROMAN_ADVENTURES] = { .data = ELECTROMAN_ADVENTURES_gdaa, .size = ELECTROMAN_ADVENTURES_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_ENIGMA] = { .data = ENIGMA_gdaa, .size = ENIGMA_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_EVERY_END] = { .data = EVERY_END_gdaa, .size = EVERY_END_gdaa_size, .stored_source_start_ms = 0 },
-    [GDAA_TRACK_FINAL_BATTLE] = { .data = FINAL_BATTLE_gdaa, .size = FINAL_BATTLE_gdaa_size, .stored_source_start_ms = 108000 },
+    [GDAA_TRACK_FINAL_BATTLE] = { .data = FINAL_BATTLE_gdaa, .size = FINAL_BATTLE_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_FIRE_AURA] = { .data = FIRE_AURA_gdaa, .size = FIRE_AURA_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_GHOST_OF_JUPITER] = { .data = GHOST_OF_JUPITER_gdaa, .size = GHOST_OF_JUPITER_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_GOLDEN_HAZE] = { .data = GOLDEN_HAZE_gdaa, .size = GOLDEN_HAZE_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_HEXAGON_FORCE] = { .data = HEXAGON_FORCE_gdaa, .size = HEXAGON_FORCE_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_INFERNOPLEX] = { .data = INFERNOPLEX_gdaa, .size = INFERNOPLEX_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_JUMPER] = { .data = JUMPER_gdaa, .size = JUMPER_gdaa_size, .stored_source_start_ms = 0 },
+    [GDAA_TRACK_MENU_THEME] = { .data = MENU_THEME_gdaa, .size = MENU_THEME_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_POLARGEIST] = { .data = POLARGEIST_gdaa, .size = POLARGEIST_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_PROBLEMATIC] = { .data = PROBLEMATIC_gdaa, .size = PROBLEMATIC_gdaa_size, .stored_source_start_ms = 0 },
     [GDAA_TRACK_ROSE] = { .data = ROSE_gdaa, .size = ROSE_gdaa_size, .stored_source_start_ms = 0 },
