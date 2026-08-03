@@ -1,0 +1,799 @@
+{
+  "method": "map-width initial-speed estimate plus 8000ms tail margin",
+  "levels": [
+    {
+      "level": "acropolis",
+      "asset_key": "FINAL_BATTLE",
+      "source_offset_ms": 108000,
+      "estimated_level_duration_ms": 74534,
+      "clip_start_ms": 108000,
+      "clip_end_ms": 190534,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "autocycles",
+      "asset_key": "CYCLES",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 80012,
+      "clip_start_ms": 0,
+      "clip_end_ms": 88012,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "backontrack",
+      "asset_key": "BACK_ON_TRACK",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 81456,
+      "clip_start_ms": 0,
+      "clip_end_ms": 89456,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "baseafterbase",
+      "asset_key": "BASE_AFTER_BASE",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 83381,
+      "clip_start_ms": 0,
+      "clip_end_ms": 91381,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "blastprocessing",
+      "asset_key": "BLAST_PROCESSING",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 99364,
+      "clip_start_ms": 0,
+      "clip_end_ms": 107364,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "cantletgo",
+      "asset_key": "CANT_LET_GO",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 80300,
+      "clip_start_ms": 0,
+      "clip_end_ms": 88300,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "cantletgov2",
+      "asset_key": "CANT_LET_GO",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 80300,
+      "clip_start_ms": 0,
+      "clip_end_ms": 88300,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "clubstep",
+      "asset_key": "CLUBSTEP",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 86559,
+      "clip_start_ms": 0,
+      "clip_end_ms": 94559,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "clutterfunk",
+      "asset_key": "CLUTTERFUNK",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 95706,
+      "clip_start_ms": 0,
+      "clip_end_ms": 103706,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "cycles",
+      "asset_key": "CYCLES",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 78952,
+      "clip_start_ms": 0,
+      "clip_end_ms": 86952,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "deathmoon",
+      "asset_key": "DEATH_MOON",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 116538,
+      "clip_start_ms": 0,
+      "clip_end_ms": 124538,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "demonjumper",
+      "asset_key": "JUMPER",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 85307,
+      "clip_start_ms": 0,
+      "clip_end_ms": 93307,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "dorabaebasic",
+      "asset_key": "ELECTROMAN_ADVENTURES",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 84922,
+      "clip_start_ms": 0,
+      "clip_end_ms": 92922,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "dorabaebasic2",
+      "asset_key": "BASH",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 95898,
+      "clip_start_ms": 0,
+      "clip_end_ms": 103898,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "dorabaebasic4",
+      "asset_key": "GOLDEN_HAZE",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 98113,
+      "clip_start_ms": 0,
+      "clip_end_ms": 106113,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "dorabaebasic7",
+      "asset_key": "CLOWNPARTY_REMIX",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 183588,
+      "clip_start_ms": 0,
+      "clip_end_ms": 191588,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "dryout",
+      "asset_key": "DRY_OUT",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 81071,
+      "clip_start_ms": 0,
+      "clip_end_ms": 89071,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "dynamicontrack",
+      "asset_key": "BACK_ON_TRACK",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 104275,
+      "clip_start_ms": 0,
+      "clip_end_ms": 112275,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "electrodynamix",
+      "asset_key": "ELECTRODYNAMIX",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 106104,
+      "clip_start_ms": 0,
+      "clip_end_ms": 114104,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "electromanadventures",
+      "asset_key": "ELECTROMAN_ADVENTURES",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 84633,
+      "clip_start_ms": 0,
+      "clip_end_ms": 92633,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "endless",
+      "asset_key": "STAY_INSIDE_ME",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 2311,
+      "clip_start_ms": 0,
+      "clip_end_ms": 10311,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "everyend",
+      "asset_key": "EVERY_END",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 440400,
+      "clip_start_ms": 0,
+      "clip_end_ms": 448400,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "f",
+      "asset_key": "JUMPER",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 87137,
+      "clip_start_ms": 0,
+      "clip_end_ms": 95137,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "fireaura_tig",
+      "asset_key": "FIRE_AURA",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 103986,
+      "clip_start_ms": 0,
+      "clip_end_ms": 111986,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "funnygameholiday",
+      "asset_key": "STEREO_MADNESS",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 98594,
+      "clip_start_ms": 0,
+      "clip_end_ms": 106594,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "goldenclub",
+      "asset_key": "CLUBSTEP",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 48862,
+      "clip_start_ms": 0,
+      "clip_end_ms": 56862,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "groundtospace",
+      "asset_key": "CHAOZ_IMPACT",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 118849,
+      "clip_start_ms": 0,
+      "clip_end_ms": 126849,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "hexagonforce",
+      "asset_key": "HEXAGON_FORCE",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 100424,
+      "clip_start_ms": 0,
+      "clip_end_ms": 108424,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "iceland",
+      "asset_key": "JUMPER",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 65858,
+      "clip_start_ms": 0,
+      "clip_end_ms": 73858,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "invisontrack",
+      "asset_key": "BACK_ON_TRACK",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 81359,
+      "clip_start_ms": 0,
+      "clip_end_ms": 89359,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "jumper",
+      "asset_key": "JUMPER",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 86174,
+      "clip_start_ms": 0,
+      "clip_end_ms": 94174,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "kaleidoscopic",
+      "asset_key": "GHOST_OF_JUPITER",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 127383,
+      "clip_start_ms": 0,
+      "clip_end_ms": 135383,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "leveleasy",
+      "asset_key": "STEREO_MADNESS",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 85307,
+      "clip_start_ms": 0,
+      "clip_end_ms": 93307,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "one",
+      "asset_key": "ENIGMA",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 90988,
+      "clip_start_ms": 0,
+      "clip_end_ms": 98988,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "polargeist",
+      "asset_key": "POLARGEIST",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 89736,
+      "clip_start_ms": 0,
+      "clip_end_ms": 97736,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "problematic",
+      "asset_key": "PROBLEMATIC",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 62199,
+      "clip_start_ms": 0,
+      "clip_end_ms": 70199,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "pyrophoric",
+      "asset_key": "STAY_INSIDE_ME",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 45927,
+      "clip_start_ms": 0,
+      "clip_end_ms": 53927,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "retray",
+      "asset_key": "GOLDEN_HAZE",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 74295,
+      "clip_start_ms": 0,
+      "clip_end_ms": 82295,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "revolution",
+      "asset_key": "INFERNOPLEX",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 73910,
+      "clip_start_ms": 0,
+      "clip_end_ms": 81910,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "rose",
+      "asset_key": "ROSE",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 85885,
+      "clip_start_ms": 0,
+      "clip_end_ms": 93885,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "selectpaymenttype",
+      "asset_key": "SELECT_PAYMENT_TYPE",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 111689,
+      "clip_start_ms": 0,
+      "clip_end_ms": 119689,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "sonar",
+      "asset_key": "STEREO_MADNESS_2",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 82996,
+      "clip_start_ms": 0,
+      "clip_end_ms": 90996,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "squareadv",
+      "asset_key": "STEREO_MADNESS",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 85692,
+      "clip_start_ms": 0,
+      "clip_end_ms": 93692,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "stereomadness",
+      "asset_key": "STEREO_MADNESS",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 85789,
+      "clip_start_ms": 0,
+      "clip_end_ms": 93789,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "storymadness",
+      "asset_key": "DEADLOCKED",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 87329,
+      "clip_start_ms": 0,
+      "clip_end_ms": 95329,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "test",
+      "asset_key": "STAY_INSIDE_ME",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 86174,
+      "clip_start_ms": 0,
+      "clip_end_ms": 94174,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "test2",
+      "asset_key": "STAY_INSIDE_ME",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 86174,
+      "clip_start_ms": 0,
+      "clip_end_ms": 94174,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "thenightmare",
+      "asset_key": "POLARGEIST",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 91180,
+      "clip_start_ms": 0,
+      "clip_end_ms": 99180,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "theoryofeverything",
+      "asset_key": "THEORY_OF_EVERYTHING",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 82996,
+      "clip_start_ms": 0,
+      "clip_end_ms": 90996,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "theoryofeverything2",
+      "asset_key": "THEORY_OF_EVERYTHING_2",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 93202,
+      "clip_start_ms": 0,
+      "clip_end_ms": 101202,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "tig_oglevel",
+      "asset_key": "FIRE_AURA",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 103986,
+      "clip_start_ms": 0,
+      "clip_end_ms": 111986,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "timemachine",
+      "asset_key": "TIME_MACHINE",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 95802,
+      "clip_start_ms": 0,
+      "clip_end_ms": 103802,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "ultimatedestruction",
+      "asset_key": "ULTIMATE_DESTRUCTION",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 64799,
+      "clip_start_ms": 0,
+      "clip_end_ms": 72799,
+      "validation": "required: speed portals may change estimate"
+    },
+    {
+      "level": "xstep",
+      "asset_key": "XSTEP",
+      "source_offset_ms": 0,
+      "estimated_level_duration_ms": 81167,
+      "clip_start_ms": 0,
+      "clip_end_ms": 89167,
+      "validation": "required: speed portals may change estimate"
+    }
+  ],
+  "asset_ranges": [
+    {
+      "asset_key": "BACK_ON_TRACK",
+      "clip_start_ms": 0,
+      "clip_end_ms": 112275,
+      "levels": [
+        "backontrack",
+        "dynamicontrack",
+        "invisontrack"
+      ]
+    },
+    {
+      "asset_key": "BASE_AFTER_BASE",
+      "clip_start_ms": 0,
+      "clip_end_ms": 91381,
+      "levels": [
+        "baseafterbase"
+      ]
+    },
+    {
+      "asset_key": "BASH",
+      "clip_start_ms": 0,
+      "clip_end_ms": 103898,
+      "levels": [
+        "dorabaebasic2"
+      ]
+    },
+    {
+      "asset_key": "BLAST_PROCESSING",
+      "clip_start_ms": 0,
+      "clip_end_ms": 107364,
+      "levels": [
+        "blastprocessing"
+      ]
+    },
+    {
+      "asset_key": "CANT_LET_GO",
+      "clip_start_ms": 0,
+      "clip_end_ms": 88300,
+      "levels": [
+        "cantletgo",
+        "cantletgov2"
+      ]
+    },
+    {
+      "asset_key": "CHAOZ_IMPACT",
+      "clip_start_ms": 0,
+      "clip_end_ms": 126849,
+      "levels": [
+        "groundtospace"
+      ]
+    },
+    {
+      "asset_key": "CLOWNPARTY_REMIX",
+      "clip_start_ms": 0,
+      "clip_end_ms": 191588,
+      "levels": [
+        "dorabaebasic7"
+      ]
+    },
+    {
+      "asset_key": "CLUBSTEP",
+      "clip_start_ms": 0,
+      "clip_end_ms": 94559,
+      "levels": [
+        "clubstep",
+        "goldenclub"
+      ]
+    },
+    {
+      "asset_key": "CLUTTERFUNK",
+      "clip_start_ms": 0,
+      "clip_end_ms": 103706,
+      "levels": [
+        "clutterfunk"
+      ]
+    },
+    {
+      "asset_key": "CYCLES",
+      "clip_start_ms": 0,
+      "clip_end_ms": 88012,
+      "levels": [
+        "autocycles",
+        "cycles"
+      ]
+    },
+    {
+      "asset_key": "DEADLOCKED",
+      "clip_start_ms": 0,
+      "clip_end_ms": 95329,
+      "levels": [
+        "storymadness"
+      ]
+    },
+    {
+      "asset_key": "DEATH_MOON",
+      "clip_start_ms": 0,
+      "clip_end_ms": 124538,
+      "levels": [
+        "deathmoon"
+      ]
+    },
+    {
+      "asset_key": "DRY_OUT",
+      "clip_start_ms": 0,
+      "clip_end_ms": 89071,
+      "levels": [
+        "dryout"
+      ]
+    },
+    {
+      "asset_key": "ELECTRODYNAMIX",
+      "clip_start_ms": 0,
+      "clip_end_ms": 114104,
+      "levels": [
+        "electrodynamix"
+      ]
+    },
+    {
+      "asset_key": "ELECTROMAN_ADVENTURES",
+      "clip_start_ms": 0,
+      "clip_end_ms": 92922,
+      "levels": [
+        "dorabaebasic",
+        "electromanadventures"
+      ]
+    },
+    {
+      "asset_key": "ENIGMA",
+      "clip_start_ms": 0,
+      "clip_end_ms": 98988,
+      "levels": [
+        "one"
+      ]
+    },
+    {
+      "asset_key": "EVERY_END",
+      "clip_start_ms": 0,
+      "clip_end_ms": 448400,
+      "levels": [
+        "everyend"
+      ]
+    },
+    {
+      "asset_key": "FINAL_BATTLE",
+      "clip_start_ms": 108000,
+      "clip_end_ms": 190534,
+      "levels": [
+        "acropolis"
+      ]
+    },
+    {
+      "asset_key": "FIRE_AURA",
+      "clip_start_ms": 0,
+      "clip_end_ms": 111986,
+      "levels": [
+        "fireaura_tig",
+        "tig_oglevel"
+      ]
+    },
+    {
+      "asset_key": "GHOST_OF_JUPITER",
+      "clip_start_ms": 0,
+      "clip_end_ms": 135383,
+      "levels": [
+        "kaleidoscopic"
+      ]
+    },
+    {
+      "asset_key": "GOLDEN_HAZE",
+      "clip_start_ms": 0,
+      "clip_end_ms": 106113,
+      "levels": [
+        "dorabaebasic4",
+        "retray"
+      ]
+    },
+    {
+      "asset_key": "HEXAGON_FORCE",
+      "clip_start_ms": 0,
+      "clip_end_ms": 108424,
+      "levels": [
+        "hexagonforce"
+      ]
+    },
+    {
+      "asset_key": "INFERNOPLEX",
+      "clip_start_ms": 0,
+      "clip_end_ms": 81910,
+      "levels": [
+        "revolution"
+      ]
+    },
+    {
+      "asset_key": "JUMPER",
+      "clip_start_ms": 0,
+      "clip_end_ms": 95137,
+      "levels": [
+        "demonjumper",
+        "f",
+        "iceland",
+        "jumper"
+      ]
+    },
+    {
+      "asset_key": "POLARGEIST",
+      "clip_start_ms": 0,
+      "clip_end_ms": 99180,
+      "levels": [
+        "polargeist",
+        "thenightmare"
+      ]
+    },
+    {
+      "asset_key": "PROBLEMATIC",
+      "clip_start_ms": 0,
+      "clip_end_ms": 70199,
+      "levels": [
+        "problematic"
+      ]
+    },
+    {
+      "asset_key": "ROSE",
+      "clip_start_ms": 0,
+      "clip_end_ms": 93885,
+      "levels": [
+        "rose"
+      ]
+    },
+    {
+      "asset_key": "SELECT_PAYMENT_TYPE",
+      "clip_start_ms": 0,
+      "clip_end_ms": 119689,
+      "levels": [
+        "selectpaymenttype"
+      ]
+    },
+    {
+      "asset_key": "STAY_INSIDE_ME",
+      "clip_start_ms": 0,
+      "clip_end_ms": 94174,
+      "levels": [
+        "endless",
+        "pyrophoric",
+        "test",
+        "test2"
+      ]
+    },
+    {
+      "asset_key": "STEREO_MADNESS",
+      "clip_start_ms": 0,
+      "clip_end_ms": 106594,
+      "levels": [
+        "funnygameholiday",
+        "leveleasy",
+        "squareadv",
+        "stereomadness"
+      ]
+    },
+    {
+      "asset_key": "STEREO_MADNESS_2",
+      "clip_start_ms": 0,
+      "clip_end_ms": 90996,
+      "levels": [
+        "sonar"
+      ]
+    },
+    {
+      "asset_key": "THEORY_OF_EVERYTHING",
+      "clip_start_ms": 0,
+      "clip_end_ms": 90996,
+      "levels": [
+        "theoryofeverything"
+      ]
+    },
+    {
+      "asset_key": "THEORY_OF_EVERYTHING_2",
+      "clip_start_ms": 0,
+      "clip_end_ms": 101202,
+      "levels": [
+        "theoryofeverything2"
+      ]
+    },
+    {
+      "asset_key": "TIME_MACHINE",
+      "clip_start_ms": 0,
+      "clip_end_ms": 103802,
+      "levels": [
+        "timemachine"
+      ]
+    },
+    {
+      "asset_key": "ULTIMATE_DESTRUCTION",
+      "clip_start_ms": 0,
+      "clip_end_ms": 72799,
+      "levels": [
+        "ultimatedestruction"
+      ]
+    },
+    {
+      "asset_key": "XSTEP",
+      "clip_start_ms": 0,
+      "clip_end_ms": 89167,
+      "levels": [
+        "xstep"
+      ]
+    }
+  ]
+}

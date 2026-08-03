@@ -1,0 +1,23 @@
+{
+  "purpose": "Public Newgrounds/ngfiles source URLs researched for the original-track ADPCM pipeline. No authenticated YouTube cookie is required.",
+  "assets": [
+    {"asset_key":"DRY_OUT","artist":"DJVI","title":"Dry Out","newgrounds_id":498543,"url":"https://audio.ngfiles.com/498000/498543_Dry-Out.mp3"},
+    {"asset_key":"BASE_AFTER_BASE","artist":"DJVI","title":"Base After Base","newgrounds_id":404997,"url":"https://audio.ngfiles.com/404000/404997_DJ_V.I.___Base_After_Base.mp3"},
+    {"asset_key":"CANT_LET_GO","artist":"DJVI","title":"Can't Let Go","newgrounds_id":485351,"url":"https://audio.ngfiles.com/485000/485351_Cant-Let-Go.mp3"},
+    {"asset_key":"TIME_MACHINE","artist":"Waterflame","title":"Time Machine","newgrounds_id":291458,"url":"https://audio.ngfiles.com/291000/291458_Waterflame___Time_machine.mp3"},
+    {"asset_key":"CYCLES","artist":"DJVI","title":"Cycles","newgrounds_id":529148,"url":"https://audio.ngfiles.com/529000/529148_Cycles.mp3"},
+    {"asset_key":"XSTEP","artist":"DJVI","title":"xStep","newgrounds_id":516735,"url":"https://audio.ngfiles.com/516000/516735_xStep.mp3"},
+    {"asset_key":"CLUTTERFUNK","artist":"Waterflame","title":"Clutterfunk","newgrounds_id":505816,"url":"https://audio.ngfiles.com/505000/505816_-Clutterfunk-.mp3"},
+    {"asset_key":"HEXAGON_FORCE","artist":"Waterflame","title":"Hexagon Force","newgrounds_id":568699,"url":"https://audio.ngfiles.com/568000/568699_-Hexagon-Force-.mp3"},
+    {"asset_key":"BLAST_PROCESSING","artist":"Waterflame","title":"Blast Processing","newgrounds_id":507560,"url":"https://audio.ngfiles.com/507000/507560_-BlastProcess-.mp3"},
+    {"asset_key":"FINAL_BATTLE","artist":"Waterflame","title":"Final Battle","newgrounds_id":598349,"url":"https://audio.ngfiles.com/598000/598349_-Final-Battle-.mp3"},
+    {"asset_key":"MENU_THEME","artist":"RobTop","title":"Geometry Dash Menu Theme","newgrounds_id":584131,"url":"https://audio.ngfiles.com/584000/584131_Geometry-Dash-Menu-Theme.mp3"},
+    {"asset_key":"BACK_ON_TRACK","artist":"DJVI","title":"Back on Track","newgrounds_id":276603,"url":"https://audio.ngfiles.com/276000/276603_Back-on-Track.mp3"},
+    {"asset_key":"POLARGEIST","artist":"Step","title":"Polargeist","newgrounds_id":310376,"url":"https://audio.ngfiles.com/310000/310376_Polargeist.mp3"},
+    {"asset_key":"JUMPER","artist":"Waterflame","title":"Jumper","newgrounds_id":370304,"url":"https://audio.ngfiles.com/370000/370304_Jumper.mp3"},
+    {"asset_key":"ELECTROMAN_ADVENTURES","artist":"Waterflame","title":"Electroman Adventures","newgrounds_id":356391,"url":"https://audio.ngfiles.com/356000/356391_Electroman-Adventures.mp3"},
+    {"asset_key":"CLUBSTEP","artist":"DJ-Nate","title":"Clubstep","newgrounds_id":396093,"url":"https://audio.ngfiles.com/396000/396093_Clubstep.mp3"},
+    {"asset_key":"STAY_INSIDE_ME","artist":"OcularNebula","title":"Stay Inside Me","newgrounds_id":764491,"url":"https://audio.ngfiles.com/764000/764491_Stay-Inside-Me.mp3"}
+  ],
+  "unresolved": ["THEORY_OF_EVERYTHING","ELECTRODYNAMIX","THEORY_OF_EVERYTHING_2","BASH","GOLDEN_HAZE","CHAOZ_IMPACT","GHOST_OF_JUPITER","ENIGMA","DEADLOCKED","INFERNOPLEX","ROSE","SELECT_PAYMENT_TYPE","PROBLEMATIC","DEATH_MOON","EVERY_END","FIRE_AURA","CLOWNPARTY_REMIX","ULTIMATE_DESTRUCTION"]
+}

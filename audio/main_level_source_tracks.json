@@ -1,0 +1,24 @@
+{
+  "$schema_version": 1,
+  "purpose": "Original-track source mapping for non-custom game music. Practice reuses STAY_INSIDE_ME from the custom-track manifest.",
+  "assets": [
+    {"asset_key":"DRY_OUT","source_song":"DJVI - Dry Out","levels":["dryout"]},
+    {"asset_key":"BASE_AFTER_BASE","source_song":"DJVI - Base After Base","levels":["baseafterbase"]},
+    {"asset_key":"CANT_LET_GO","source_song":"DJVI - Can't Let Go","levels":["cantletgo","cantletgov2"]},
+    {"asset_key":"TIME_MACHINE","source_song":"Waterflame - Time Machine","levels":["timemachine"]},
+    {"asset_key":"CYCLES","source_song":"DJVI - Cycles","levels":["cycles","autocycles"]},
+    {"asset_key":"XSTEP","source_song":"DJVI - xStep","levels":["xstep"]},
+    {"asset_key":"CLUTTERFUNK","source_song":"Waterflame - Clutterfunk","levels":["clutterfunk"]},
+    {"asset_key":"THEORY_OF_EVERYTHING","source_song":"DJ-Nate - Theory of Everything","levels":["theoryofeverything"]},
+    {"asset_key":"ELECTRODYNAMIX","source_song":"DJ-Nate - Electrodynamix","levels":["electrodynamix"]},
+    {"asset_key":"HEXAGON_FORCE","source_song":"Waterflame - Hexagon Force","levels":["hexagonforce"]},
+    {"asset_key":"BLAST_PROCESSING","source_song":"Waterflame - Blast Processing","levels":["blastprocessing"]},
+    {"asset_key":"THEORY_OF_EVERYTHING_2","source_song":"DJ-Nate - Theory of Everything 2","levels":["theoryofeverything2"]},
+    {"asset_key":"MENU_THEME","source_song":"Geometry Dash Main Menu Theme","levels":["menu"]},
+    {"asset_key":"BACK_ON_TRACK","source_song":"DJVI - Back on Track","levels":["stereomadness","backontrack"]},
+    {"asset_key":"POLARGEIST","source_song":"Step - Polargeist","levels":["polargeist"]},
+    {"asset_key":"JUMPER","source_song":"Waterflame - Jumper","levels":["jumper"]},
+    {"asset_key":"ELECTROMAN_ADVENTURES","source_song":"Waterflame - Electroman Adventures","levels":["electroman"]},
+    {"asset_key":"CLUBSTEP","source_song":"DJ-Nate - Clubstep","levels":["clubstep"]}
+  ]
+}

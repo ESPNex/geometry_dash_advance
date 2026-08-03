@@ -29,10 +29,10 @@ ROM_VERSION	:=
 #
 
 # Binary files to process with bin2s
-BINARY_FILES	:= 
+BINARY_FILES	:= /usr/assets_clipped_11025/*.gdaa
 
 # Audio files to process with mmutil
-AUDIO_FILES	:= audio/*.xm audio/*.s3m audio/Sfx/*.wav
+AUDIO_FILES	:= audio/Sfx/*.wav
 
 # Graphics files to process with grit
 #
