@@ -2037,7 +2037,7 @@ void player_code() {
             const GdaaAsset* asset = gdaa_asset_get(gdaa_track);
             if (asset && asset->data) {
                 mmStop(); // stop any Maxmod music (SFX still works)
-                gdaa_stream_start(asset->data, asset->size, music_offset_ms + asset->stored_source_start_ms, 0);
+                gdaa_stream_start(asset->data, asset->size, 0, 0); // clipped assets already start at offset, full zip versions are short
             } else {
                 mm_pmode loop = MM_PLAY_ONCE;
 #ifdef INCLUDE_ENDLESS

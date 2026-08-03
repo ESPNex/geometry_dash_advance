@@ -112,7 +112,7 @@ extern u16 loaded_song_id;
 
 extern u8 custom_levels;
 
-#define NUM_CHANNELS 16
+#define NUM_CHANNELS 6 // reduced for SFX only, ADPCM uses separate FIFO B
 
 extern u8 music_data[NUM_CHANNELS * (MM_SIZEOF_MODCH
                                +MM_SIZEOF_ACTCH
