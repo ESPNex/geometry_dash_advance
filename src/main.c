@@ -129,8 +129,6 @@ void init_maxmod() {
     mySystem.soundbank         = (mm_addr)soundbank_bin;
 
     mmInit( &mySystem );
-    // ADPCM music player init (FIFO B, DMA2, Timer1+2) - Maxmod now only for SFX
-    gdaa_stream_init();
     // 85% volume
     mmSetModuleVolume(819);
     irq_init(NULL);
@@ -139,6 +137,8 @@ void init_maxmod() {
     irq_set(II_GAMEPAK, hang, 0);
     irq_enable(II_VBLANK);
     irq_disable(II_HBLANK);
+    // ADPCM init AFTER irq_init to keep IRQ handler
+    gdaa_stream_init();
     
 }
 

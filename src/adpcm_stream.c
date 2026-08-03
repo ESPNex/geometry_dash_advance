@@ -18,7 +18,7 @@
 #define TIMER_CASCADE     0x0004u
 #define TIMER_IRQ         0x0040u
 
-#define FIFO_AHEAD_SAMPLES 128u // larger headroom to avoid buzz
+#define FIFO_AHEAD_SAMPLES 512u // larger headroom to avoid buzz
 #define TIMER_RELOAD(samples) ((u16)(0x10000u - (samples)))
 
 static EWRAM_DATA ALIGN4 s8 stream_buffers[2][GDAA_STREAM_BUFFER_SAMPLES];

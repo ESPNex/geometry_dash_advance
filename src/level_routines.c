@@ -2009,30 +2009,10 @@ void player_code() {
     // Start the song once the player goes from negative to positive x position, if not in practice mode
     // ADPCM music replaces Maxmod module music, Maxmod kept only for SFX
     if ((last_player_x < 0) != (curr_player.player_x < 0) && !in_practice_mode) {
-        // Try to get GDAA track for current level (custom or main)
         GdaaTrackId gdaa_track = GDAA_TRACK_INVALID;
         u32 music_offset_ms = 0;
-        // Simple mapping via asset manifest: we have gdaa_assets with stored_source_start_ms
-        // For demo, use level id to pick asset: if level has custom track, use it
-        // Here we attempt to use FINAL_BATTLE for acropolis as example, otherwise first asset
-        // In full implementation, use music_tracks.c mapping
-        extern const GdaaAsset gdaa_assets[];
-        // For acropolis (108000 offset), and others 0
-        // This placeholder picks track based on loaded_level_id % count, but real mapping should use custom_level_source_tracks.json
-        // For now, if loaded_level_id is valid, try to get associated asset via music_get_by_key or direct
-        // Simplified: if acropolis level, use FINAL_BATTLE
-        // TODO: replace with proper level->asset mapping table
-        if (loaded_level_id < 54) {
-            // Use level_clip_plan to get asset_key -> track
-            // For quick test, use FINAL_BATTLE for acropolis, otherwise use first available
-            if (loaded_level_id == 0) { // assume acropolis id 0 for demo
-                gdaa_track = GDAA_TRACK_FINAL_BATTLE;
-                music_offset_ms = 0; // clipped asset already starts at 108000
-            } else {
-                gdaa_track = (GdaaTrackId)(loaded_level_id % GDAA_TRACK_COUNT);
-                music_offset_ms = 0;
-            }
-        }
+        gdaa_track = music_get_by_level_id(loaded_level_id, &music_offset_ms);
+        
         if (gdaa_track != GDAA_TRACK_INVALID) {
             const GdaaAsset* asset = gdaa_asset_get(gdaa_track);
             if (asset && asset->data) {
