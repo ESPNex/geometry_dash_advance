@@ -12,7 +12,7 @@ const unsigned int electromanadventures_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   879,
- /*song*/          MOD_ELECTRO,
+ /*song*/          0, // 0 // MOD_ELECTRO ADPCM replaced by ADPCM
  /*name length*/   20,
  /*difficulty*/    4,
  /*stars*/         10,

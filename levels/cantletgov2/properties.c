@@ -12,7 +12,7 @@ const unsigned int cantletgov2_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   834,
- /*song*/          MOD_CANTLG,
+ /*song*/          0, // 0 // MOD_CANTLG ADPCM replaced by ADPCM
  /*name length*/   11,
  /*difficulty*/    3,
  /*stars*/         6,

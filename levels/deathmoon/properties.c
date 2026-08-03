@@ -12,7 +12,7 @@ const unsigned int deathmoon_properties[] = {
  /*speed*/         3,
  /*level height*/  64,
  /*level width*/   1818,
- /*song*/          MOD_DEATHMOON,
+ /*song*/          0, // 0 // MOD_DEATHMOON ADPCM replaced by ADPCM
  /*name length*/   9,
  /*difficulty*/    8,
  /*stars*/         10,

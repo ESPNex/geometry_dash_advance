@@ -12,7 +12,7 @@ const unsigned int pyrophoric_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   477,
- /*song*/          MOD_PYRO,
+ /*song*/          0, // 0 // MOD_PYRO ADPCM replaced by ADPCM
  /*name length*/   10,
  /*difficulty*/    3,
  /*stars*/         6,

@@ -12,7 +12,7 @@ const unsigned int cycles_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   820,
- /*song*/          MOD_CYCLES,
+ /*song*/          0, // 0 // MOD_CYCLES ADPCM replaced by ADPCM
  /*name length*/   6,
  /*difficulty*/    3,
  /*stars*/         9,

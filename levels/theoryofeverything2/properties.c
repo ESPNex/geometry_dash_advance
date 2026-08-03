@@ -12,7 +12,7 @@ const unsigned int theoryofeverything2_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   968,
- /*song*/          MOD_TOE2,
+ /*song*/          0, // 0 // MOD_TOE2 ADPCM replaced by ADPCM
  /*name length*/   19,
  /*difficulty*/    5,
  /*stars*/         14,

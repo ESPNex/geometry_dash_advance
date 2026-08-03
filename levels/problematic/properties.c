@@ -12,7 +12,7 @@ const unsigned int problematic_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   646,
- /*song*/          MOD_PROBLEM,
+ /*song*/          0, // 0 // MOD_PROBLEM ADPCM replaced by ADPCM
  /*name length*/   11,
  /*difficulty*/    8,
  /*stars*/         10,

@@ -12,7 +12,7 @@ const unsigned int goldenclub_properties[] = {
  /*speed*/         2,
  /*level height*/  27,
  /*level width*/   631,
- /*song*/          MOD_TIME,
+ /*song*/          0, // 0 // MOD_TIME ADPCM replaced by ADPCM
  /*name length*/   10,
  /*difficulty*/    2,
  /*stars*/         4,

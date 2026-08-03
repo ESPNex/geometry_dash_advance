@@ -12,7 +12,7 @@ const unsigned int iceland_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   684,
- /*song*/          MOD_JUMPER,
+ /*song*/          0, // 0 // MOD_JUMPER ADPCM replaced by ADPCM
  /*name length*/   7,
  /*difficulty*/    2,
  /*stars*/         5,

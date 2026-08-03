@@ -12,7 +12,7 @@ const unsigned int squareadv_properties[] = {
  /*speed*/         1,
  /*level height*/  37,
  /*level width*/   890,
- /*song*/          MOD_STEREOMA,
+ /*song*/          0, // 0 // MOD_STEREOMA ADPCM replaced by ADPCM
  /*name length*/   9,
  /*difficulty*/    2,
  /*stars*/         4,

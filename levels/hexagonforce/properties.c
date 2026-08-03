@@ -12,7 +12,7 @@ const unsigned int hexagonforce_properties[] = {
  /*speed*/         1,
  /*level height*/  35,
  /*level width*/   1043,
- /*song*/          MOD_HEXAGON,
+ /*song*/          0, // 0 // MOD_HEXAGON ADPCM replaced by ADPCM
  /*name length*/   12,
  /*difficulty*/    4,
  /*stars*/         12,

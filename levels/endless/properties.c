@@ -12,7 +12,7 @@ const unsigned int endless_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   24,
- /*song*/          MOD_EVERYEND,
+ /*song*/          0, // 0 // MOD_EVERYEND ADPCM replaced by ADPCM
  /*name length*/   7,
  /*difficulty*/    7,
  /*stars*/         0,

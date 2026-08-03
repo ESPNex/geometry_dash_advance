@@ -18,7 +18,7 @@ GRAPHICS	:=
 SOURCES		:= graphics/*.s $(shell find levels -name '*.s') $(shell find levels -name '*.c') $(shell find src -name '*.c') src/*.s lib/*.s $(shell find graphics -name '*.c')
 INCLUDES	:= include include/menus
 LIBDIRS		:= $(DEVKITPRO)/libgba $(DEVKITPRO)/libtonc
-LIBS		:= tonc mm
+LIBS		:= mm tonc gba
 BUILDDIR	:= build
 ALLFLAGS	:= -Wall -Wextra -g0 -gdwarf-4 -ffunction-sections -fdata-sections -masm-syntax-unified -D_DEFAULT_SOURCE
 CFLAGS		:= -std=c99 -mcpu=arm7tdmi -mtune=arm7tdmi -mthumb-interwork -O2 -fomit-frame-pointer -fno-strict-aliasing -ffunction-sections -fdata-sections -Wall -Wextra

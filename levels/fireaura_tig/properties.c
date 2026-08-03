@@ -12,7 +12,7 @@ const unsigned int fireaura_tig_properties[] = {
  /*speed*/         1,
  /*level height*/  37,
  /*level width*/   1080,
- /*song*/          MOD_FAURA_SLOW,
+ /*song*/          0, // 0 // MOD_FAURA_SLOW ADPCM replaced by ADPCM
  /*name length*/   12,
  /*difficulty*/    3,
  /*stars*/         7,

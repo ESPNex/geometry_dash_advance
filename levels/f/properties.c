@@ -12,7 +12,7 @@ const unsigned int f_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   905,
- /*song*/          MOD_JUMPER,
+ /*song*/          0, // 0 // MOD_JUMPER ADPCM replaced by ADPCM
  /*name length*/   1,
  /*difficulty*/    3,
  /*stars*/         6,

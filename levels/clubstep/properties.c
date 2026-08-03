@@ -12,7 +12,7 @@ const unsigned int clubstep_properties[] = {
  /*speed*/         1,
  /*level height*/  54,
  /*level width*/   899,
- /*song*/          MOD_CLUBSTEP,
+ /*song*/          0, // 0 // MOD_CLUBSTEP ADPCM replaced by ADPCM
  /*name length*/   8,
  /*difficulty*/    5,
  /*stars*/         14,

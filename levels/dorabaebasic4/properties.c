@@ -12,7 +12,7 @@ const unsigned int dorabaebasic4_properties[] = {
  /*speed*/         1,
  /*level height*/  33,
  /*level width*/   1019,
- /*song*/          MOD_DYNAMIX,
+ /*song*/          0, // 0 // MOD_DYNAMIX ADPCM replaced by ADPCM
  /*name length*/   13,
  /*difficulty*/    1,
  /*stars*/         3,

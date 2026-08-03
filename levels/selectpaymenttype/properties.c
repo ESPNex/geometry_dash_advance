@@ -12,7 +12,7 @@ const unsigned int selectpaymenttype_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   1160,
- /*song*/          MOD_SELECTPAYMENT,
+ /*song*/          0, // 0 // MOD_SELECTPAYMENT ADPCM replaced by ADPCM
  /*name length*/   17,
  /*difficulty*/    2,
  /*stars*/         4,

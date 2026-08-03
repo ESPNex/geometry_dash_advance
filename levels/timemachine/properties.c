@@ -12,7 +12,7 @@ const unsigned int timemachine_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   995,
- /*song*/          MOD_TIME,
+ /*song*/          0, // 0 // MOD_TIME ADPCM replaced by ADPCM
  /*name length*/   11,
  /*difficulty*/    3,
  /*stars*/         8,

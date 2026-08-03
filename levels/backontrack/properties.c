@@ -12,7 +12,7 @@ const unsigned int backontrack_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   846,
- /*song*/          MOD_BACKOT,
+ /*song*/          0, // 0 // MOD_BACKOT ADPCM replaced by ADPCM
  /*name length*/   11,
  /*difficulty*/    0,
  /*stars*/         2,

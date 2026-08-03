@@ -12,7 +12,7 @@ const unsigned int sonar_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   862,
- /*song*/          MOD_STEREOMA2,
+ /*song*/          0, // 0 // MOD_STEREOMA2 ADPCM replaced by ADPCM
  /*name length*/   5,
  /*difficulty*/    0,
  /*stars*/         2,

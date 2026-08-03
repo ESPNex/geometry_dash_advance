@@ -229,7 +229,7 @@ int __attribute__((target("arm"))) main() {
 
     game_state = STATE_TITLE_SCREEN;
     
-    mmStart(MOD_MENU, MM_PLAY_LOOP);
+    do { const GdaaAsset* a=gdaa_asset_get(GDAA_TRACK_MENU_THEME); if(a) { mmStop(); gdaa_stream_start(a->data,a->size,0,1); } } while(0);
 
     // Set blending registers
     REG_BLDCNT = BLD_BUILD(BLD_OBJ, BLD_BG0 | BLD_BG1 | BLD_BG2, BLD_MODE(1));
@@ -331,7 +331,7 @@ void exit_level() {
 
     fade_out();
 
-    mmStart(MOD_MENU, MM_PLAY_LOOP);
+    do { const GdaaAsset* a=gdaa_asset_get(GDAA_TRACK_MENU_THEME); if(a) { mmStop(); gdaa_stream_start(a->data,a->size,0,1); } } while(0);
 }
 
 void level_loop() {
@@ -353,7 +353,7 @@ void level_loop() {
             game_state = STATE_LEVEL_SELECT;      
             memcpy32(palette_buffer, pal_bg_mem, 256);
             fade_out();
-            mmStart(MOD_MENU, MM_PLAY_LOOP);
+            do { const GdaaAsset* a=gdaa_asset_get(GDAA_TRACK_MENU_THEME); if(a) { mmStop(); gdaa_stream_start(a->data,a->size,0,1); } } while(0);
             clear_checkpoints();
             complete_cutscene = FALSE;        
             cutscene_frame = 0;
@@ -482,7 +482,7 @@ u32 paused_routines() {
                 mmStop();
             } else {
                 // Start practice song
-                mmStart(MOD_PRACTICE, MM_PLAY_LOOP);
+                do { const GdaaAsset* a=gdaa_asset_get(GDAA_TRACK_STAY_INSIDE_ME); if(a) { mmStop(); gdaa_stream_start(a->data,a->size,0,1); } } while(0);
                 put_practice_gui();
             }
             break;

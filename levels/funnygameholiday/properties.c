@@ -12,7 +12,7 @@ const unsigned int funnygameholiday_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   1024,
- /*song*/          MOD_STEREOMA,
+ /*song*/          0, // 0 // MOD_STEREOMA ADPCM replaced by ADPCM
  /*name length*/   16,
  /*difficulty*/    3,
  /*stars*/         7,

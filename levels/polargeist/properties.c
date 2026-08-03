@@ -12,7 +12,7 @@ const unsigned int polargeist_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   932,
- /*song*/          MOD_POLAR,
+ /*song*/          0, // 0 // MOD_POLAR ADPCM replaced by ADPCM
  /*name length*/   10,
  /*difficulty*/    1,
  /*stars*/         3,

@@ -12,7 +12,7 @@ const unsigned int autocycles_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   831,
- /*song*/          MOD_CYCLES,
+ /*song*/          0, // 0 // MOD_CYCLES ADPCM replaced by ADPCM
  /*name length*/   10,
  /*difficulty*/    6,
  /*stars*/         1,

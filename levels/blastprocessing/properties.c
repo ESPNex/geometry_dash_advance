@@ -12,7 +12,7 @@ const unsigned int blastprocessing_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   1032,
- /*song*/          MOD_BLASTP,
+ /*song*/          0, // 0 // MOD_BLASTP ADPCM replaced by ADPCM
  /*name length*/   15,
  /*difficulty*/    3,
  /*stars*/         10,

@@ -12,7 +12,7 @@ const unsigned int clutterfunk_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   994,
- /*song*/          MOD_CLTRFNK,
+ /*song*/          0, // 0 // MOD_CLTRFNK ADPCM replaced by ADPCM
  /*name length*/   11,
  /*difficulty*/    4,
  /*stars*/         11,

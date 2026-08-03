@@ -12,7 +12,7 @@ const unsigned int retray_properties[] = {
  /*speed*/         0,
  /*level height*/  27,
  /*level width*/   622,
- /*song*/          MOD_RTAY,
+ /*song*/          0, // 0 // MOD_RTAY ADPCM replaced by ADPCM
  /*name length*/   6,
  /*difficulty*/    0,
  /*stars*/         2,

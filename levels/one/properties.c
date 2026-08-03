@@ -12,7 +12,7 @@ const unsigned int one_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   945,
- /*song*/          MOD_POLAR,
+ /*song*/          0, // 0 // MOD_POLAR ADPCM replaced by ADPCM
  /*name length*/   3,
  /*difficulty*/    2,
  /*stars*/         5,

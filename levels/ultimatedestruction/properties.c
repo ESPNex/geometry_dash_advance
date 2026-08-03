@@ -12,7 +12,7 @@ const unsigned int ultimatedestruction_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   673,
- /*song*/          MOD_ULTIMATE,
+ /*song*/          0, // 0 // MOD_ULTIMATE ADPCM replaced by ADPCM
  /*name length*/   19,
  /*difficulty*/    2,
  /*stars*/         6,

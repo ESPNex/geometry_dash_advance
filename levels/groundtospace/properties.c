@@ -12,7 +12,7 @@ const unsigned int groundtospace_properties[] = {
  /*speed*/         0,
  /*level height*/  30,
  /*level width*/   995,
- /*song*/          MOD_GROUND,
+ /*song*/          0, // 0 // MOD_GROUND ADPCM replaced by ADPCM
  /*name length*/   13,
  /*difficulty*/    2,
  /*stars*/         5,

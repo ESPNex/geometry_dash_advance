@@ -12,7 +12,7 @@ const unsigned int rose_properties[] = {
  /*speed*/         1,
  /*level height*/  38,
  /*level width*/   892,
- /*song*/          MOD_ROSE,
+ /*song*/          0, // 0 // MOD_ROSE ADPCM replaced by ADPCM
  /*name length*/   4,
  /*difficulty*/    8,
  /*stars*/         10,

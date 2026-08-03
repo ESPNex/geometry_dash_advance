@@ -12,7 +12,7 @@ const unsigned int revolution_properties[] = {
  /*speed*/         3,
  /*level height*/  27,
  /*level width*/   1153,
- /*song*/          MOD_INFERNO,
+ /*song*/          0, // 0 // MOD_INFERNO ADPCM replaced by ADPCM
  /*name length*/   10,
  /*difficulty*/    3,
  /*stars*/         7,

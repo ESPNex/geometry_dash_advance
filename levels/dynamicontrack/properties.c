@@ -12,7 +12,7 @@ const unsigned int dynamicontrack_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   1083,
- /*song*/          MOD_BACKOT,
+ /*song*/          0, // 0 // MOD_BACKOT ADPCM replaced by ADPCM
  /*name length*/   14,
  /*difficulty*/    2,
  /*stars*/         5,

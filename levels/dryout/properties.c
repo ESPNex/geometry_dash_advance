@@ -12,7 +12,7 @@ const unsigned int dryout_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   842,
- /*song*/          MOD_DRY,
+ /*song*/          0, // 0 // MOD_DRY ADPCM replaced by ADPCM
  /*name length*/   6,
  /*difficulty*/    1,
  /*stars*/         4,

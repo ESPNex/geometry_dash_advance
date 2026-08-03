@@ -12,7 +12,7 @@ const unsigned int thenightmare_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   947,
- /*song*/          MOD_POLAR,
+ /*song*/          0, // 0 // MOD_POLAR ADPCM replaced by ADPCM
  /*name length*/   12,
  /*difficulty*/    8,
  /*stars*/         10,

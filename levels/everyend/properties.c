@@ -12,7 +12,7 @@ const unsigned int everyend_properties[] = {
  /*speed*/         1,
  /*level height*/  50,
  /*level width*/   4574,
- /*song*/          MOD_EVERYEND,
+ /*song*/          0, // 0 // MOD_EVERYEND ADPCM replaced by ADPCM
  /*name length*/   8,
  /*difficulty*/    12,
  /*stars*/         99,

@@ -12,7 +12,7 @@ const unsigned int test2_properties[] = {
  /*speed*/         1,
  /*level height*/  120,
  /*level width*/   895,
- /*song*/          MOD_STEREOMA,
+ /*song*/          0, // 0 // MOD_STEREOMA ADPCM replaced by ADPCM
  /*name length*/   5,
  /*difficulty*/    0,
  /*stars*/         0,

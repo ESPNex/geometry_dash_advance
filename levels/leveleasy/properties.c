@@ -12,7 +12,7 @@ const unsigned int leveleasy_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   886,
- /*song*/          MOD_STEREOMA,
+ /*song*/          0, // 0 // MOD_STEREOMA ADPCM replaced by ADPCM
  /*name length*/   9,
  /*difficulty*/    1,
  /*stars*/         3,

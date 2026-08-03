@@ -12,7 +12,7 @@ const unsigned int baseafterbase_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   866,
- /*song*/          MOD_BASEAB,
+ /*song*/          0, // 0 // MOD_BASEAB ADPCM replaced by ADPCM
  /*name length*/   13,
  /*difficulty*/    2,
  /*stars*/         5,

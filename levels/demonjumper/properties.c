@@ -12,7 +12,7 @@ const unsigned int demonjumper_properties[] = {
  /*speed*/         1,
  /*level height*/  50,
  /*level width*/   886,
- /*song*/          MOD_JUMPER,
+ /*song*/          0, // 0 // MOD_JUMPER ADPCM replaced by ADPCM
  /*name length*/   11,
  /*difficulty*/    8,
  /*stars*/         10,

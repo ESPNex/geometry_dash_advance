@@ -12,7 +12,7 @@ const unsigned int kaleidoscopic_properties[] = {
  /*speed*/         1,
  /*level height*/  60,
  /*level width*/   1323,
- /*song*/          MOD_INFERNO,
+ /*song*/          0, // 0 // MOD_INFERNO ADPCM replaced by ADPCM
  /*name length*/   13,
  /*difficulty*/    11,
  /*stars*/         10,

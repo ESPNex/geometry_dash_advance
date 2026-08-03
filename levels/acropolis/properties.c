@@ -12,7 +12,7 @@ const unsigned int acropolis_properties[] = {
  /*speed*/         0,
  /*level height*/  41,
  /*level width*/   624,
- /*song*/          MOD_FINALBATTLE,
+ /*song*/          0, // 0 // MOD_FINALBATTLE ADPCM replaced by ADPCM
  /*name length*/   9,
  /*difficulty*/    11,
  /*stars*/         10,

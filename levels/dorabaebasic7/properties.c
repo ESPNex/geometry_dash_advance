@@ -12,7 +12,7 @@ const unsigned int dorabaebasic7_properties[] = {
  /*speed*/         0,
  /*level height*/  50,
  /*level width*/   1537,
- /*song*/          MOD_CLOWNPARTY,
+ /*song*/          0, // 0 // MOD_CLOWNPARTY ADPCM replaced by ADPCM
  /*name length*/   13,
  /*difficulty*/    2,
  /*stars*/         4,

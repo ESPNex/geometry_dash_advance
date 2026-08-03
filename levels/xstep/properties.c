@@ -12,7 +12,7 @@ const unsigned int xstep_properties[] = {
  /*speed*/         1,
  /*level height*/  27,
  /*level width*/   843,
- /*song*/          MOD_XSTEP,
+ /*song*/          0, // 0 // MOD_XSTEP ADPCM replaced by ADPCM
  /*name length*/   5,
  /*difficulty*/    4,
  /*stars*/         10,
