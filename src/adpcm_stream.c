@@ -18,13 +18,15 @@
 #define TIMER_CASCADE     0x0004u
 #define TIMER_IRQ         0x0040u
 
-#define FIFO_AHEAD_SAMPLES 512u // larger headroom to avoid buzz
+#define FIFO_AHEAD_SAMPLES 512u
 #define TIMER_RELOAD(samples) ((u16)(0x10000u - (samples)))
 
 static EWRAM_DATA ALIGN4 s8 stream_buffers[2][GDAA_STREAM_BUFFER_SAMPLES];
 static GdaaDecoder stream_decoder;
 static volatile u8 stream_playing;
 static volatile u8 stream_paused;
+static volatile u8 stream_needs_refill;
+static volatile u8 stream_refill_index;
 static u8 dma_buffer_index;
 
 static void decode_buffer(u8 index) {
@@ -52,7 +54,8 @@ void gdaa_stream_timer_irq(void) {
     rec = dma_buffer_index;
     arm_dma2(next);
     dma_buffer_index = next;
-    decode_buffer(rec);
+    stream_refill_index = rec;
+    stream_needs_refill = 1;
     REG_TM2D = TIMER_RELOAD(GDAA_STREAM_BUFFER_SAMPLES);
 }
 
@@ -62,6 +65,7 @@ void gdaa_stream_init(void) {
     REG_DMA2CNT = 0;
     REG_TM1CNT = 0;
     REG_TM2CNT = 0;
+    stream_needs_refill = 0;
     irq_add(II_TIMER2, gdaa_stream_timer_irq);
     irq_enable(II_TIMER2);
 }
@@ -70,21 +74,19 @@ u8 gdaa_stream_start(const u8* data, u32 data_size, u32 source_offset_ms, u8 loo
     u32 source_sample;
     gdaa_stream_stop();
     if(!gdaa_open(&stream_decoder, data, data_size)) return FALSE;
-    // Allow any sample rate (16384 from zip FULL, 11025 clipped) - use actual rate for timer
-    // if(stream_decoder.sample_rate != GDAA_SAMPLE_RATE) return FALSE;
     source_sample = (source_offset_ms * stream_decoder.sample_rate) / 1000u;
     if(source_sample >= stream_decoder.total_samples || !gdaa_seek(&stream_decoder, source_sample)) return FALSE;
     stream_decoder.loop_enabled = loop ? TRUE : FALSE;
     decode_buffer(0);
     decode_buffer(1);
     dma_buffer_index = 0;
+    stream_needs_refill = 0;
     stream_paused = FALSE;
     stream_playing = TRUE;
     REG_SNDDSCNT |= DS_B_FIFO_RESET;
     arm_dma2(0);
     REG_TM2D = TIMER_RELOAD(GDAA_STREAM_BUFFER_SAMPLES - FIFO_AHEAD_SAMPLES);
     REG_TM2CNT = TIMER_ENABLE | TIMER_CASCADE | TIMER_IRQ;
-    // Use actual asset sample rate, not fixed
     REG_TM1D = (u16)(0x10000u - (0x1000000u / stream_decoder.sample_rate));
     REG_TM1CNT = TIMER_ENABLE;
     return TRUE;
@@ -97,6 +99,7 @@ void gdaa_stream_stop(void) {
     REG_SNDDSCNT |= DS_B_FIFO_RESET;
     stream_playing = FALSE;
     stream_paused = FALSE;
+    stream_needs_refill = 0;
 }
 
 void gdaa_stream_pause(void) {
@@ -119,4 +122,11 @@ void gdaa_stream_resume(void) {
 
 u8 gdaa_stream_is_playing(void) {
     return stream_playing && !stream_paused;
+}
+
+void gdaa_stream_update(void) {
+    if(stream_playing && !stream_paused && stream_needs_refill) {
+        decode_buffer(stream_refill_index);
+        stream_needs_refill = 0;
+    }
 }

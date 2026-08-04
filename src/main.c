@@ -19,6 +19,7 @@ void hblank_lvl_select_handler();
 
 void vblank_handler() {
     mmVBlank();
+    gdaa_stream_update();
 
     // Only use the update handler on a level
     if (game_state == STATE_PLAYING && frame_finished) {
