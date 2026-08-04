@@ -802,7 +802,7 @@ def export_properties_to_h(level_name, output_path_h, output_path_c, json_file_p
         file.write(f" /*speed*/         {speed},\n")
         file.write(f" /*level height*/  {level_height},\n")
         file.write(f" /*level width*/   {level_width},\n")
-        file.write(f" /*song*/          0, // 0 // MOD_{song} ADPCM replaced by ADPCM\n")
+        file.write(f" /*song*/          MOD_{song},\n")
         file.write(f" /*name length*/   {len(level_name)},\n")
         file.write(f" /*difficulty*/    {difficulty},\n")
         file.write(f" /*stars*/         {stars},\n")

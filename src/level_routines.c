@@ -3,9 +3,6 @@
 #include "main.h"
 #include "metatiles.h"
 #include <maxmod.h>
-#include "adpcm_stream.h"
-#include "gdaa_assets.h"
-#include "music_tracks.h"
 #include "soundbank.h"
 #include "level_select.h"
 #include "physics_defines.h"
@@ -751,7 +748,7 @@ void fade_in_menu() {
 }
 
 void reset_level() {
-    if (!in_practice_mode) { mmStop(); gdaa_stream_stop(); }
+    if (!in_practice_mode) mmStop();
     update_flags = UPDATE_OAM | UPDATE_SCROLL;
     
     nextSpr = 0;
@@ -2007,31 +2004,13 @@ void player_code() {
     draw_player();
 
     // Start the song once the player goes from negative to positive x position, if not in practice mode
-    // ADPCM music replaces Maxmod module music, Maxmod kept only for SFX
     if ((last_player_x < 0) != (curr_player.player_x < 0) && !in_practice_mode) {
-        GdaaTrackId gdaa_track = GDAA_TRACK_INVALID;
-        u32 music_offset_ms = 0;
-        gdaa_track = music_get_by_level_id(loaded_level_id, &music_offset_ms);
-        
-        if (gdaa_track != GDAA_TRACK_INVALID) {
-            const GdaaAsset* asset = gdaa_asset_get(gdaa_track);
-            if (asset && asset->data) {
-                mmStop(); // stop any Maxmod music (SFX still works)
-                gdaa_stream_start(asset->data, asset->size, 0, 0); // clipped assets already start at offset, full zip versions are short
-            } else {
-                mm_pmode loop = MM_PLAY_ONCE;
 #ifdef INCLUDE_ENDLESS
-                loop = (loaded_level_id == endless_ID ? MM_PLAY_LOOP : MM_PLAY_ONCE);
+        mm_pmode loop = (loaded_level_id == endless_ID ? MM_PLAY_LOOP : MM_PLAY_ONCE);
+#else
+        mm_pmode loop = MM_PLAY_ONCE;
 #endif
-                mmStart(loaded_song_id, loop);
-            }
-        } else {
-            mm_pmode loop = MM_PLAY_ONCE;
-#ifdef INCLUDE_ENDLESS
-            loop = (loaded_level_id == endless_ID ? MM_PLAY_LOOP : MM_PLAY_ONCE);
-#endif
-            mmStart(loaded_song_id, loop);
-        }
+        mmStart(loaded_song_id, loop);
     }
 
     player_1 = curr_player;

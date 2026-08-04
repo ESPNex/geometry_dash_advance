@@ -4,8 +4,6 @@
 #include "metatiles.h"
 #include "physics_defines.h"
 #include <maxmod.h>
-#include "adpcm_stream.h"
-#include "gdaa_assets.h"
 #include "soundbank.bin.h"
 #include "soundbank.h"
 #include "level_select.h"
@@ -19,7 +17,6 @@ void hblank_lvl_select_handler();
 
 void vblank_handler() {
     mmVBlank();
-    gdaa_stream_update();
 
     // Only use the update handler on a level
     if (game_state == STATE_PLAYING && frame_finished) {
@@ -138,8 +135,6 @@ void init_maxmod() {
     irq_set(II_GAMEPAK, hang, 0);
     irq_enable(II_VBLANK);
     irq_disable(II_HBLANK);
-    // ADPCM init AFTER irq_init to keep IRQ handler
-    gdaa_stream_init();
     
 }
 
@@ -230,7 +225,7 @@ int __attribute__((target("arm"))) main() {
 
     game_state = STATE_TITLE_SCREEN;
     
-    do { const GdaaAsset* a=gdaa_asset_get(GDAA_TRACK_MENU_THEME); if(a) { mmStop(); gdaa_stream_start(a->data,a->size,0,1); } } while(0);
+    mmStart(MOD_MENU, MM_PLAY_LOOP);
 
     // Set blending registers
     REG_BLDCNT = BLD_BUILD(BLD_OBJ, BLD_BG0 | BLD_BG1 | BLD_BG2, BLD_MODE(1));
@@ -332,7 +327,7 @@ void exit_level() {
 
     fade_out();
 
-    do { const GdaaAsset* a=gdaa_asset_get(GDAA_TRACK_MENU_THEME); if(a) { mmStop(); gdaa_stream_start(a->data,a->size,0,1); } } while(0);
+    mmStart(MOD_MENU, MM_PLAY_LOOP);
 }
 
 void level_loop() {
@@ -354,7 +349,7 @@ void level_loop() {
             game_state = STATE_LEVEL_SELECT;      
             memcpy32(palette_buffer, pal_bg_mem, 256);
             fade_out();
-            do { const GdaaAsset* a=gdaa_asset_get(GDAA_TRACK_MENU_THEME); if(a) { mmStop(); gdaa_stream_start(a->data,a->size,0,1); } } while(0);
+            mmStart(MOD_MENU, MM_PLAY_LOOP);
             clear_checkpoints();
             complete_cutscene = FALSE;        
             cutscene_frame = 0;
@@ -483,7 +478,7 @@ u32 paused_routines() {
                 mmStop();
             } else {
                 // Start practice song
-                do { const GdaaAsset* a=gdaa_asset_get(GDAA_TRACK_STAY_INSIDE_ME); if(a) { mmStop(); gdaa_stream_start(a->data,a->size,0,1); } } while(0);
+                mmStart(MOD_PRACTICE, MM_PLAY_LOOP);
                 put_practice_gui();
             }
             break;
